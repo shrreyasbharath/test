@@ -1,0 +1,202 @@
+.subtoyt{
+    text-decoration: none;
+    color: #EBE702;
+    cursor:pointer;
+}
+body{
+background-color:orangered;
+text-align: center;
+margin-top: 20%;
+font-size: larger;
+}
+
+.S-logo{
+position: absolute;
+  left: 1.5%;
+  width: 45px;
+  bottom: 93%;
+}
+.menu2 ul{
+    display: inline-flex;
+    margin: 50px;
+}
+.menu2 ul li{
+    list-style: none;
+    margin: 0 20px;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    margin-top: -10%;
+  }
+
+  .S-logo{
+    position: absolute;
+    left: 1.5%;
+    width: 45px;
+    bottom: 94%;
+    
+    
+  }
+  .menu ul{
+    display: inline-flex;
+    margin: 50px;
+  
+  }
+  .menu ul li{
+    list-style: none;
+    margin: 0 20px;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    margin-top: -10%;
+  
+   
+    
+  }
+
+  .active2{
+    list-style: none;
+    margin: 0 20px;
+    color:rgb(255, 255, 255);
+    cursor:pointer;
+    margin-top: -10%;
+    text-decoration: none;
+  }
+  .sp-btn2{
+    bottom: 94%;
+    right: 1700px;
+    position: absolute;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    background-image: linear-gradient(#d4db00,#d4db00 ),radial-gradient(circle at top left,yellow,green);
+    color: black;
+    background-origin:border-box ;
+    background-clip: content-box,border-box;
+    text-decoration: none;
+    display: block;
+    padding: 3px 3px;
+  }
+  .sp-btn2 span{
+    display: block;
+    padding: 1px 1px;
+  }
+  .gobcimg{
+    bottom: 2%;
+    right: 1800px;
+    position: absolute;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    background-image: linear-gradient(#000000,#d4db00 ),radial-gradient(circle at top left,green,yellow);
+    color: black;
+    background-origin:border-box ;
+    background-clip: content-box,border-box;
+    text-decoration: none;
+    display: block;
+    padding: 3px 3px;
+    width: 56px;
+    text-decoration-style:none ;
+  }
+  .rpgff2{
+    bottom: 94%;
+    right: 1700px;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    background-image: linear-gradient(#d4db00,#d4db00),radial-gradient(circle at top left,yellow,green);
+    color: black;
+    background-origin:border-box ;
+    background-clip: content-box,border-box;
+    text-decoration: none;
+    display: block;
+    padding:-2px;
+
+  }
+  @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+	background:#ffffff;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+
+  
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background:	#ff5e00;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  color: #444;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: #000;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #444;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 100%;
+}
+.About{
+  color:white;
+  margin-top: 20%;
+  font-family: 'Righteous', cursive;
+  font-size: larger;
+}
+.AboutT{
+  color:rgb(0, 0, 0);
+  margin-top: 20%;
+  font-family: 'Krona One', sans-serif;
+  font-size:30px;
+}
+
+  

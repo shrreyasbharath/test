@@ -1,0 +1,185 @@
+
+.S-logo{
+  position: absolute;
+  left: 1.5%;
+  width: 45px;
+  bottom: 94%;
+  
+  
+}
+.menu ul{
+  display: inline-flex;
+  margin: 50px;
+
+}
+.menu ul li{
+  list-style: none;
+  margin: 0 20px;
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  margin-top: -10%;
+
+ 
+  
+}
+.sp-btn{
+  top: 23px;
+  right: 1600px;
+  position: absolute;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#d4db00,#d4db00 ),radial-gradient(circle at top left,yellow,green);
+  color: black;
+  background-origin:border-box ;
+  background-clip: content-box,border-box;
+  text-decoration: none;
+}
+.sp-btn span{
+  display: block;
+  padding: 8px 22px;
+}
+.active2{
+  list-style: none;
+  margin: 0 20px;
+  color:rgb(255, 255, 255);
+  cursor:pointer;
+  margin-top: -10%;
+  text-decoration: none;
+}
+.sp-btn2{
+  bottom: 94%;
+  right: 1700px;
+  position: absolute;
+  color: white;
+  border: 2px solid transparent;
+  border-radius: 22px;
+  background-image: linear-gradient(#d4db00,#d4db00 ),radial-gradient(circle at top left,yellow,green);
+  color: black;
+  background-origin:border-box ;
+  background-clip: content-box,border-box;
+  text-decoration: none;
+  display: block;
+  padding: 3px 3px;
+}
+.sp-btn2 span{
+  display: block;
+  padding: 1px 1px;
+}
+.rpgff2{
+  bottom: 94%;
+    right: 1700px;
+    position: absolute;
+    color: white;
+    border: 2px solid transparent;
+    border-radius: 22px;
+    background-image: linear-gradient(#d4db00,#d4db00 ),radial-gradient(circle at top left,yellow,green);
+    color: black;
+    background-origin:border-box ;
+    background-clip: content-box,border-box;
+    text-decoration: none;
+    display: block;
+    padding: 3px 3px;
+}
+.rpgff2 span{
+  display: block;
+  padding: 1px 1px;
+}
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+body {
+	margin: 0;
+  background:rgb(255, 255, 255);
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+header {
+  background: #ff874f;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 23px;
+
+  position: relative;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.hi{
+  position: absolute;
+  bottom: 20%;
+  font-size: 90px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  left: 32%;
+}
+a{
+  background-color: #d4db00;
+  border-radius: 30px;
+  padding:13px;
+  text-decoration: none;
+  color: #000;
+}
+.httext{
+  text-align:center;
+  font-size: 50px;
+}
+.mfimg{
+  position: relative;
+  bottom: 250px;
+  left: 520px;
+}
+.mfdb{
+  position: relative;
+  bottom: 240px;
+  left: 470px;
+}
+a:hover{
+  background-color:#03ba71;
+}
+.akimg{
+  position: relative;
+  bottom: 470px;
+  left: 960px;
+}
+.akdb{
+  position: relative;
+  bottom: 440px;
+  left: 870px;
+}
+.rapf{
+  text-align: center;
+  font-size: 89;
+}
